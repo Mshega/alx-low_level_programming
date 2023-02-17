@@ -5,19 +5,17 @@
  */
 int main(void)
 {
-char c;
-char d;
-с = 'a';
-d = 'A';
+char с = 'a';
 while (с <= 'z')
 {
 putchar(c);
-c++;
+C++;
 }
-while (d <= 'Z')
+с = 'A';
+while (с <= 'Z')
 {
-putchar(d);
-d++;
+putchar(c);
+C++;
 }
 putchar('\n');
 return (0);
