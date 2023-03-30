@@ -25,7 +25,7 @@ new->next = NULL;
 if (*head == NULL)
 {
 *head = new;
-eturn (new);
+return (new);
 }
 while (temp->next)
 temp = temp->next;
