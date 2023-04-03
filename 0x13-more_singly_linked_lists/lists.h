@@ -10,7 +10,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
+ * more singly linked lists
  */
 typedef struct listint_s
 {
