@@ -9,14 +9,14 @@
 size_t free_listint_safe(listint_t **h)
 {
 size_t len = 0;
-int different;
+int diff;
 listint_t *imp;
 if (!h || !*h)
 return (0);
 while (*h)
 {
-different = *h - (*h)->next;
-if (different > 0)
+diff = *h - (*h)->next;
+if (diff > 0)
 {
 imp = (*h)->next;
 free(*h);
