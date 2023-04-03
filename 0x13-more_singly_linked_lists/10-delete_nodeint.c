@@ -25,7 +25,7 @@ while (x < index - 1)
 if (!imp || !(imp->next))
 return (-1);
 imp = imp->next;
-i++;
+x++;
 }
 curr = imp->next;
 imp->next = curr->next;
