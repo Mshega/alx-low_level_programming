@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 MAIN.H code
 
 
+=======
+>>>>>>> ac193c863884020ccc727d0156840981da76fe70
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -16,3 +19,7 @@ void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
 #endif
+<<<<<<< HEAD
+=======
+
+>>>>>>> ac193c863884020ccc727d0156840981da76fe70
