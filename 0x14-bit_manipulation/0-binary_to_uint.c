@@ -9,18 +9,19 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int result = 0;
-unsigned int bit = 1;
-int i;
+int x;
+unsigned int bit = 0;
 if (b == NULL)
-return (0);
-for (i = 0; b[i] != '\0'; i++)
 {
-if (b[i] == '1')
-result += bit;
-else if (b[i] != '0')
 return (0);
-bit <<= 1;
 }
-return (result);
+for (x = 0; b[x] != '\0'; x++)
+{
+if (b[x] < '0' || b[x] > '1')
+{
+return (0);
+}
+bit = 2 * bit + (b[x] - '0');
+}
+return (bit);
 }
